@@ -10,7 +10,7 @@ app.use(express.json());
 // 🔹 Conexão com seu banco PostgreSQL no Render
 const pool = new Pool({
   connectionString:
-    "postgresql://chat_db_93e6_user:xWGz5hB1P2PJFaZvrcgzzvg1tt3HSAsH@dpg-d3j1vvt6ubrc73a06240-a.oregon-postgres.render.com/chat_db_93e6",
+    "postgresql://chat_db_os87_user:Vc9VSdl93oYL2pTDnH3CJ6NXfpPjWBqr@dpg-d3j4cgffte5s73alspjg-a/chat_db_os87",
   ssl: { rejectUnauthorized: false },
 });
 
